@@ -12,7 +12,7 @@ export default class Forecast extends React.Component {
     }
 }
     const styles = StyleSheet.create({
-        main: {textAlign:'center', color:'green', fontSize:20},
+        main: {flex:1 , flexDirection:'row'},
         description: {textAlign:'center', color:'red', fontSize:20},
         temp: {textAlign:'center', color:'yellow', fontSize:100},
     });  
